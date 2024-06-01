@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <!-- saved from url=(0055)https://theluxuryvodkabrand.wordpress.com/our-products/ -->
-<html lang="en"><head>
+<html lang="en">
+
+<head>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -28,7 +30,7 @@ dataLayer.push({
         'item_name': 'Elysium Crystal Vodka A',
         'item_list_name': 'our products',
         'item_quantity': 1,
-        'item_category': 'vodka'
+        'item_category': 'vodka',
         'item_brand': 'the luxury vodka',
         'item_price': 799.99,
         'item_quantity': 1,
@@ -38,7 +40,7 @@ dataLayer.push({
         'item_name': 'Elysium Crystal Vodka B',
         'item_list_name': 'our products',
         'item_quantity': 1,
-        'item_category': 'vodka'
+        'item_category': 'vodka',
         'item_brand': 'the luxury vodka',
         'item_price': 799.99,
         'item_quantity': 1,
@@ -48,7 +50,7 @@ dataLayer.push({
         'item_name': 'Elysium Crystal Vodka C',
         'item_list_name': 'our products',
         'item_quantity': 1,
-        'item_category': 'vodka'
+        'item_category': 'vodka',
         'item_brand': 'the luxury vodka',
         'item_price': 799.99,
         'item_quantity': 1,
@@ -691,7 +693,7 @@ var Jetpack_Block_Assets_Base_Url="https://s0.wp.com/wp-content/mu-plugins/jetpa
 
 
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.clos19.com/fr-fr/belvedere-vodka-single-estate-rye-bartezek-1078318.html">Buy now at clos19</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.clos19.com/fr-fr/belvedere-vodka-single-estate-rye-bartezek-1078318.html" onsubmit="return clickProduct()" target="_blank">Buy now at clos19</a></div>
 </div>
 
 
@@ -711,7 +713,7 @@ var Jetpack_Block_Assets_Base_Url="https://s0.wp.com/wp-content/mu-plugins/jetpa
 
 
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.clos19.com/fr-fr/belvedere-vodka-single-estate-rye-bartezek-1078318.html">Buy now at clos19</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.clos19.com/fr-fr/belvedere-vodka-single-estate-rye-bartezek-1078318.html" onsubmit="return clickProduct()" target="_blank">Buy now at clos19</a></div>
 </div>
 
 
@@ -731,7 +733,7 @@ var Jetpack_Block_Assets_Base_Url="https://s0.wp.com/wp-content/mu-plugins/jetpa
 
 
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.clos19.com/fr-fr/belvedere-vodka-single-estate-rye-bartezek-1078318.html">Buy now at clos19</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://www.clos19.com/fr-fr/belvedere-vodka-single-estate-rye-bartezek-1078318.html" onsubmit="return clickProduct()" target="_blank">Buy now at clos19</a></div>
 </div>
 
 
@@ -1421,6 +1423,30 @@ function validateForm() {
     return false; // Prevent form from submitting traditionally
 }
 </script>
+<script>
+function clickProduct() {
+	window.dataLayer.push({
+            event: 'select_item',
+            ecommerce: {
+            	currency: 'EUR',
+            	value: 799.99,
+            	items: [
+            		{
+				        item_name: 'Elysium Crystal Vodka A',
+				        item_list_name: 'our products',
+				        item_quantity: 1,
+				        item_category: 'vodka',
+				        item_brand: 'the luxury vodka',
+				        item_price: 799.99,
+				        item_quantity: 1,
+				        index: 0
+				    }
+				   ]
 
+        });
+}
+
+
+</script>	
 
 </body></html>
