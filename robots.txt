@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://jeremy-jouffroy.github.io/the-luxury-vodka-brand/sitemap.xml
