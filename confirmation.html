@@ -18,9 +18,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 <!-- page based dataLayer push -->
-<script>
+<script id="page_view">
 dataLayer.push({
-  'event': 'page_view',
+  'event': 'dl_page_view',
   'website_country': 'FR',
   'website_language': 'en',
   'page_type': 'confirmation',
@@ -28,21 +28,19 @@ dataLayer.push({
 });
 
 </script>
-<script>
-dataLayer.push({
-  event: 'purchase',
-  ecommerce: {
-    currency: 'EUR',
-    value: 116.47,
-    tax: 7.18,
-    shipping: 10.00,
-    affiliation: 'My Parka Store',
-    transaction_id: 'p115-20202000',
-    coupon: 'free_back_rub',
-  }
+<script id="dl_purchase">
+dataLayer.push({	
+  	'event': 'purchase',
+  	'ecommerce': {
+    		'currency': 'EUR',
+    		'value': 116.47,
+    		'tax': 7.18,
+    		'shipping': 10.00,
+    		'affiliation': 'My Parka Store',
+    		'transaction_id': 'p115-20202000',
+    		'coupon': 'free_back_rub'
+    }
 });
-});
-
 </script>
 <!-- End page based dataLayer push -->
 
